@@ -134,7 +134,7 @@ class examenTest extends TestInit{
 
   "Ejercicio5" should "Calcular el ingreso total por producto" in {
 
-    val dfProductosIngresosTotales = calculaIngresoTotal("C:\\Users\\sofia\\Documents\\Big_Data_Processing\\Big_Data_Processing_Ejercicios_Clases\\examen\\ventas.csv")
+    val dfProductosIngresosTotales = calculaIngresoTotal("csvVentas/ventas.csv")
 
     val productosIngresos3 = Seq(
       ("104",800.00),
